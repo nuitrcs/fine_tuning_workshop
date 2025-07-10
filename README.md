@@ -1,12 +1,16 @@
 Repo for the workshop on fine-tuning encoder-only models for text classification taught by [Research Computing and Data Services](https://www.it.northwestern.edu/departments/it-services-support/research/).
 
-**[URL to work on Google Colab](TBD)**
+**[URL to work on Google Colab](https://colab.research.google.com/github/nuitrcs/fine_tuning_workshop/blob/main/fine_tuning_demo.ipynb)**
 
 ## Instructions to work on your local machine
 
-TODO
-
 **Unless you are already comfortable creating virtual environments and working with GPUs on your local machine, I suggest that you work on Google Colab.**
+
+The instructions here work on my MacBook Pro (2023) with Apple M2 Max, which includes an integrated GPU. As opposed to Google Colab, Apple Silicon doesn't support CUDA, which is specific to NVIDIA GPUs. With Apple Silicon you can use GPU acceleration via Apple's Meta Performance Shaders (MPS) in PyTorch. For some reason, that didn't work using `conda install`, but it did work using `pip install`. You can create a virtual environment typing these commands in your terminal (Mac):
+- `conda create -n fine_tuning_workshop python=3.11.13`
+- `conda activate fine_tuning_workshop`
+    - `pip install torch torchvision torchaudio`
+    - `pip install evaluate pandas numpy scikit-learn datasets transformers ipykernel accelerate`
 
 ## Instructions for the exercise
 
