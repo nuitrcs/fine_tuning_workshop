@@ -16,7 +16,7 @@ The instructions here work on a MacBook Pro (2023) with Apple M2 Max, which incl
 
 - Form groups of 3-4 people.
 - In your group of 3-4 people, decide on a dataset and a question.
-    - The dataset should be one of the ones used by [Laurer et al (2024)](https://www.cambridge.org/core/journals/political-analysis/article/less-annotating-more-classifying-addressing-the-data-scarcity-issue-of-supervised-machine-learning-with-deep-transfer-learning-and-bertnli/05BB05555241762889825B080E097C27?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark), available on their [GitHub repo](https://github.com/MoritzLaurer/less-annotating-with-bert-nli).
+    - The dataset should be one of the ones used by [Laurer et al (2024)](https://www.cambridge.org/core/journals/political-analysis/article/less-annotating-more-classifying-addressing-the-data-scarcity-issue-of-supervised-machine-learning-with-deep-transfer-learning-and-bertnli/05BB05555241762889825B080E097C27?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark), available on their [GitHub repo](https://github.com/MoritzLaurer/less-annotating-with-bert-nli), *except the manifesto stances toward protectionism (which I used for the demo)*.
     - The question should be a real research question (a small one) that you can answer during the workshop with the data available (e.g., "In which country is protectionist political speech more prevalent?​")
 - Test that you can use the tools for today (Google Colab with CPU and GPU, Hugging Face models). You can do this by making sure you can run the notebook that I demoed.
 - Fine-tune the model and answer your question.
